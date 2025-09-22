@@ -1,0 +1,134 @@
+.navbar {
+  background-color: white;
+  padding: 1em 2em;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #000000;
+  filter: drop-shadow(0 2px 4px rgb(0, 0, 0));
+}
+
+.navbar {
+  background-color: white;
+  padding: 1em 2em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  position: relative;
+}
+
+.navbar ul li {
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #504e4e;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  padding: 0.5em 0;
+  display: inline-block;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 4px 8px rgb(255, 255, 255);
+  border-radius: 6px;
+  min-width: 160px;
+  z-index: 100;
+  flex-direction: column;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  font-weight: normal;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+.about{
+    height: 80vh;
+    width: 99vw;
+    display: flex;
+    background-image: url(./about/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: border-box;
+    color: white;
+   
+}
+section h1{
+    font-size: 80px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20vh;
+    color: black;
+    filter: drop-shadow(0 2px 4px rgb(255, 255, 255));
+}
+p.why {
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 20px;
+  line-height: 1.6;
+  filter: drop-shadow(0 2px 4px rgb(255, 255, 255));
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
